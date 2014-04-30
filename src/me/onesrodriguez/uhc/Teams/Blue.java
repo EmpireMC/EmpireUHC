@@ -20,7 +20,7 @@ public class Blue implements UHCTeam{
 
     @Override
     public ChatColor getColor() {
-        return ChatColor.BLUE;
+        return ChatColor.AQUA;
     }
 
 }
