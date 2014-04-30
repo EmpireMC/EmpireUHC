@@ -80,6 +80,7 @@ public class UHCCore extends JavaPlugin{
         teams.add(new Spectators());
         
         Bukkit.getServer().getScheduler().runTaskTimer(this, new TimeManager(), 20L, 20L);
+        System.out.println(TAG+"UHC enabled!");
     }
     
     @Override
